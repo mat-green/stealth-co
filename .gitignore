@@ -1,2 +1,4 @@
 # Eclipse generated files and folders
 .project
+.pydevproject
+.settings
