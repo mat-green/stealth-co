@@ -45,4 +45,4 @@ folder):
         python stealthco/main.py ["(x,y) - (x,y), (x,y) - (x,y),..."]
 
 ## Test Cases ##
-* (4,9) – (14,0), (0,4) – (19,4)
+* "(4,9) – (14,0), (0,4) – (19,4)"
