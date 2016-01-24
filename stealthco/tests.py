@@ -128,21 +128,21 @@ class TestGrid(unittest.TestCase):
         # test set up
         component = Graph(20,10)
         start = Coordinate(4,9)
-        end = Coordinate(15, 0)
+        end = Coordinate(14, 0)
         # test execution
         component.plot(start, end)
         actual = component.render()
         # test verification
         self.assertEqual(actual, "             X      \n" \
+                                 "            X       \n" \
+                                 "           X        \n" \
                                  "          X         \n" \
                                  "         X          \n" \
                                  "        X           \n" \
                                  "       X            \n" \
                                  "      X             \n" \
                                  "     X              \n" \
-                                 "    X               \n" \
-                                 "   X                \n" \
-                                 "                    ")
+                                 "    X               ")
 
 
 if __name__ == "__main__":

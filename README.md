@@ -42,7 +42,7 @@ follow to be executed once to setup the application:
 The following to be used to find information (assumes you are in the src
 folder):
 
-        python stealthco/main.py [(x,y) - (x,y), (x,y) - (x,y),...]
+        python stealthco/main.py ["(x,y) - (x,y), (x,y) - (x,y),..."]
 
 ## Test Cases ##
 * (4,9) – (14,0), (0,4) – (19,4)
