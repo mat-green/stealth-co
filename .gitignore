@@ -5,3 +5,5 @@
 
 # Python generated files and folders
 *.egg-info
+*.pyc
+
