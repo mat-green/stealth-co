@@ -4,7 +4,7 @@ Created on 24 Jan 2016
 
 @author:     Matthew Green
 
-@copyright:  2016 NEw Edge Engineering Ltd. All rights reserved.
+@copyright:  2016 New Edge Engineering Ltd. All rights reserved.
 
 @license:    MIT
 '''
@@ -28,7 +28,7 @@ except ImportError:
 
 def required(fname):
     """Reads file to create array of required packages
-    
+    :param fname: File name to be read.
     """
     return open(os.path.join(os.path.dirname(__file__), fname)).read().split('\n')
 

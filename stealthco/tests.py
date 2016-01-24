@@ -1,10 +1,15 @@
 '''
 Created on 24 Jan 2016
 
-@author: newedgeengineer
+@author:     Matthew Green
+
+@copyright:  2016 New Edge Engineering Ltd. All rights reserved.
+
+@license:    MIT
 '''
 import unittest
 
+from models import Graph
 
 class TestGrid(unittest.TestCase):
 
@@ -18,7 +23,12 @@ class TestGrid(unittest.TestCase):
 
 
     def testBlank(self):
-        self.fail("To be implemented")
+        # test set up
+        component = Graph(20,10)
+        # test execution
+        actual = component.render()
+        # test verification
+        self.assertEqual("                    \n                    \n                    \n                    \n                    \n                    \n                    \n                    \n                    \n                    ", actual)
 
 
 if __name__ == "__main__":
