@@ -2,3 +2,6 @@
 .project
 .pydevproject
 .settings
+
+# Python generated files and folders
+*.egg-info
