@@ -1,7 +1,7 @@
 # Stealth Company Technical Test
 
 ## Introduction
-Command line application that renders vetors as ascii characters.
+Command line application that renders vectors as ascii characters.
 
 ## Execution ##
 
