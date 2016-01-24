@@ -7,9 +7,11 @@ ascii characters.
 
 It defines classes_and_methods
 
+Created on 24 Jan 2016
+
 @author:     Matthew Green
 
-@copyright:  2016 NEw Edge Engineering Ltd. All rights reserved.
+@copyright:  2016 New Edge Engineering Ltd. All rights reserved.
 
 @license:    MIT
 '''
